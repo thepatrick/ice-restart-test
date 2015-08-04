@@ -13,6 +13,7 @@ var configuration = {
       url:  'stun:stun.ning.wizard.life'
     },
     {
+      urls:       ['turn:stun.ning.wizard.life:3478?transport=udp'],
       url:        'turn:stun.ning.wizard.life:3478?transport=udp',
       credential: 'donkeykong',
       username:   'patrick'
