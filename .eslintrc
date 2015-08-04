@@ -1,0 +1,18 @@
+{
+  "extends": "opentok",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "vars-on-top": 0,
+    "dot-notation": [2, {"allowKeywords": true}],
+    "key-spacing": [2, {
+      "beforeColon": false,
+      "afterColon": true,
+      "align": "value"
+      }],
+    // "no-unused-expressions": 0, // Chai uses expressions like expect().to.be.true
+    "no-eq-null": 0,
+    "no-console": 0
+  }
+}
